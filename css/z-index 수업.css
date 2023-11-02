@@ -1,0 +1,68 @@
+div{
+        box-sizing: border-box;
+        /* width가 padding, border 다 포함한다 */
+    }
+
+body{
+    margin: 0; padding: 0;
+}
+
+.test-background{
+    width: 100%;
+    height: 500px;
+    background-image: url(../picture/shoes.jpg);
+    /* background-size: 100%; */
+    background-size: cover;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    /* 스크롤시 화면 고정 */
+    padding: 1px;
+    position:relative;
+}
+
+.test-text{
+    color: white;
+    font-size: 40px;
+    margin-top: 160px;
+    text-align: center;
+}
+
+.test-content{
+    color: white;
+    text-align: center;
+}
+
+.test-button{
+    width: 120px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 60px;
+    z-index: 1;
+    /* z-index: 높을수록 앞으로 온다; */
+    
+}
+
+.test-maintext{
+    /* width: 700px; */
+    width: 80%;
+    /* 부모가 없을 때는 body가 부모, 즉 전체 화면 넓이의 80%라는 뜻 */
+    margin: auto;
+    max-width: 700px;
+    /* 화면을 늘였다 줄였다 해도 최대 700px 넓이 이상 늘어나지 않게 함. */
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
+    position: relative;
+    top: -20px;
+
+}

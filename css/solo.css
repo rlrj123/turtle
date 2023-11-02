@@ -1,0 +1,49 @@
+.wrap{
+    width: 1000px;
+}
+
+.header{
+    width: 700px;
+    float: left;
+}
+img{
+    float: left;
+}
+
+.writer{
+    font-size: 15px;
+    margin-left: 65px;
+    margin-bottom: 0px;
+    height: 10px;
+}
+
+.time{
+    font-size: 11px;
+    margin-left: 65px;
+    margin-top: 0px;
+}
+
+.middle-img img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 30px;
+}
+
+nav>ul{
+    clear: both;
+}
+.navbar>li {
+    display: inline-block;
+    
+}
+
+ul,li{
+    list-style: none;
+}
+
+.navbar>a{
+    font-size: 16px;
+    text-decoration: none;
+}
+

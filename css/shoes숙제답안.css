@@ -1,0 +1,52 @@
+.test-background{
+    width: 100%;
+    height: 500px;
+    background-image: url(../picture/shoes.jpg);
+    /* background-size: 100%; */
+    background-size: cover;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    /* 스크롤시 화면 고정 */
+    padding: 1px;
+    position:relative;
+}
+
+.test-text{
+    color: white;
+    font-size: 40px;
+    margin-top: 160px;
+    text-align: center;
+}
+
+.test-content{
+    color: white;
+    text-align: center;
+}
+
+.test-button{
+    width: 120px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 60px;
+    
+}
+
+.test-maintext{
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
+    position: relative;
+    top: -20px;
+}

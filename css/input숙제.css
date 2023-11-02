@@ -1,0 +1,98 @@
+div{
+    box-sizing: border-box;
+
+}
+
+body{
+    padding: 0; margin: 0;
+    background-color: gray;
+}
+
+.content-box{
+    width: 600px;
+    height: 800px;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.content-title{
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.small-title{
+    margin-left: 25px;
+}
+
+.email-box{
+    width: 470px;
+    height: 25px;
+    margin-left: 25px;
+
+}
+
+.middle-title{
+    margin-left: 25px;
+}
+
+.name-box{
+    margin-left: 25px;
+    height: 30px;
+    width: 220px;
+}
+
+.middle1-title{
+    position: relative;
+    top: -90px;
+    left: 270px;
+}
+
+.name1-box{
+    width: 220px;
+    height: 30px;
+    position: relative;
+    top: -90px;
+    left: 270px;
+}
+
+.main-box{
+    position: relative;
+    left: 25px;
+    top: -80px;
+}
+
+.Message-box{
+    width: 465px;
+    height: 200px;
+    position: relative;
+    top: -80px;
+    left: 25px;
+}
+
+    .Sand-box{
+        width: 120px;
+        height: 30px;
+        color: white;
+        background-color:gold;
+        font-weight: 900px;
+        border: none;
+        position: relative;
+        top: -65px;
+        left: 380px;
+    }
+
+    .subcri{
+        position: relative;
+        top: -100px;
+        left: 25px;
+    }
+
+
+
+
+
+
+
+
